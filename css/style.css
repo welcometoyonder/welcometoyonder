@@ -106,15 +106,20 @@ padding-top:5%;
 }
 
 .home-logo {
-	
+	float:left;
 	text-align:center;
+	width:50%;
+	margin:0 auto;
+	height:auto;
 	
 	
 }
 .home-logo img{
 	padding: 10% 0 0 0;
-	width:30%;
+	width:90%;
 	height:auto;
+	margin:0 auto;
+	padding-left:50%;
 	
 	
 }
@@ -135,10 +140,14 @@ text-align:center;
 	
 }
 
-.follow-item-home {
-	
+#follow-item-home {
+	margin:0 auto;
+	text-align:center;
+	display:inline-block;
+	float:left;
 	width:50%;
-	padding-left:25%;
+	padding-left:33%;
+	height:auto;
 	
 	
 }
@@ -233,6 +242,7 @@ text-align:center;
 	margin-left:;
 	margin-top:0;
 	background-color:;
+	text-align:center;
 	
 	
 }
