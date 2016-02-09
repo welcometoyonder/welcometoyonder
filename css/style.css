@@ -1,0 +1,307 @@
+/* CSS Document */
+
+html,body {
+  height:100%;
+  margin:0;
+}
+
+
+html>body .content {
+  height:auto;
+}
+
+header {
+	float:left;
+	margin:0 auto;
+	padding:0;
+	width:100%;
+	height:auto;
+	position:fixed;
+	z-index:100;
+	background-color:;
+}
+
+#logo {
+	
+	
+	float:left;
+	margin:0 auto;
+	padding-top:1em;
+	padding-left:30px;
+	height:auto; 
+	
+	
+	
+}
+
+#logo h3 {
+	
+	font-size:2em;
+	color:#ffffff;
+font-family: 'Amatic SC', cursive;
+font-weight:700;
+	margin:0 auto;
+	
+}
+#logo img {
+	
+	width:15%;
+	height:auto;
+	float:left;
+	
+	
+	
+}
+nav {
+	float:right;
+	padding-right:50px;
+}
+
+nav ul li {
+	
+	display:inline;
+	text-decoration:none;
+	padding-right:20px;
+	color:#fff;
+	font-family: 'Amatic SC', cursive;
+	font-size:2em;
+	font-weight:700;
+	
+}
+
+nav ul li a {
+	
+	color:#fff;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	
+	color:#4ED91D;
+	text-decoration:none;
+}
+
+
+.content {
+  height:100%;
+  min-height:100%;/*for mozilla*/
+}
+
+.title {
+	
+text-align:center;
+padding-top:5%;
+
+
+}
+
+.title h1 {
+	
+	font-size:4em;
+	color:#fff;
+	folor:#fff;
+	font-family: 'Amatic SC', cursive;
+	font-weight:700;
+	
+}
+
+.home-logo {
+	
+	text-align:center;
+	
+	
+}
+.home-logo img{
+	padding: 10% 0 0 0;
+	width:50%;
+	height:auto;
+	
+	
+}
+	
+#home-arrow {
+	
+text-align:center;
+
+}
+
+#home-arrow li {
+	
+	list-style-type: none;	
+}
+
+#home-arrow li i{
+	color:#ffffff;
+	
+}
+
+.follow-item-home {
+	
+	padding-left:30%;
+	
+	
+}
+.follow-arrow img {
+	margin:0 auto;
+	padding-left:;
+	float:left;
+	width:5%;
+	height:auto;
+	padding-right:2%;
+	
+	
+}
+
+.follow-arrow li {
+	font-family: 'Amatic SC', cursive;
+	font-size:1.5em;
+	color:#fff;
+	list-style-type:none;
+	text-decoration:none;
+	padding-top:1%;
+	float:left;
+	padding-right:2%;
+}
+.follow-arrow li a{
+	font-family: 'Amatic SC', cursive;
+	font-size:1.5em;
+	color:#fff;
+	
+	text-decoration:none;
+}
+
+.follow-arrow li a:hover {
+	font-family: 'Amatic SC', cursive;
+	font-size:1.5em;
+	color:#16CC2F;
+	
+	text-decoration:none;
+}
+
+
+/*other arrows on the other containers*/
+
+.follow-arrow-main {
+	
+	padding-left:50%;
+	
+}
+
+.follow-arrow-main img {
+	margin:0 auto;
+	padding-left:;
+	float:left;
+	width:5%;
+	height:auto;
+	padding-right:2%;
+	
+	
+}
+
+.follow-arrow-main li {
+	font-family: 'Amatic SC', cursive;
+	font-size:1.5em;
+	color:#fff;
+	list-style-type:none;
+	text-decoration:none;
+	padding-top:;
+	float:left;
+	padding-right:2%;
+}
+.follow-arrow-main li a{
+	font-family: 'Amatic SC', cursive;
+	font-size:1.5em;
+	color:#fff;
+	
+	text-decoration:none;
+}
+
+
+
+.follow-arrow-main li a:hover {
+	font-family: 'Amatic SC', cursive;
+	font-size:1.5em;
+	color:#16CC2F;
+	
+	text-decoration:none;
+}
+.container {
+	
+	width:80%;
+	height:80%;
+	margin-left:10%;
+	margin-top:0;
+	background-color:;
+	
+	
+}
+
+#home {
+
+  background: center center no-repeat scroll #520E24; /*moon in circle - dark red*/
+}
+	
+
+#web {
+  background: center center no-repeat scroll #8F2041; /*moon - pinky red*/
+}
+
+#graphic {
+  background: center center no-repeat scroll #DC554F; /*light - terracotta red*/
+}
+
+#branding {
+  background: center center no-repeat scroll #FF905E; /*orange*/
+}
+
+#about {
+  background:  center center no-repeat scroll #FFDB77; /*yellow*/
+}
+
+#illustration {
+  background:  center center no-repeat scroll #11ADD9; /*yellow*/
+}
+
+#contact {
+  background:  center center no-repeat scroll #A43133; /*yellow*/
+}
+
+.contact-details {
+	
+	text-align:center;
+}
+
+.contact-details h3 {
+	
+	color:#ffffff;
+	font-family: 'Amatic SC', cursive;
+	font-size:1.5em;
+
+}
+
+.contact-details h3 a {
+	
+	color:#ffffff;
+	font-family: 'Amatic SC', cursive;
+	font-size:1em;
+	text-decoration:none;
+
+}
+.contact-details h3 a:hover {
+	color:#0AD00D;
+	font-family: 'Amatic SC', cursive;
+	font-size:1em;
+	text-decoration:none;
+
+}
+
+footer {
+	
+	width:100%;
+	height:auto;
+	padding:10px 0 10px 0;
+	background-color:#c1aa95;
+	
+	
+	
+}
