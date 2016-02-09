@@ -116,10 +116,11 @@ padding-top:5%;
 }
 .home-logo img{
 	padding: 10% 0 0 0;
-	width:100%;
+	width:70%;
 	height:auto;
 	margin:0 auto;
 	padding-left:50%;
+	margin-left:15%;
 	
 	
 }
@@ -308,6 +309,7 @@ text-align:center;
 
 footer {
 	
+	float:left;
 	width:100%;
 	height:auto;
 	padding:10px 0 10px 0;
