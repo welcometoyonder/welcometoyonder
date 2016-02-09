@@ -258,7 +258,7 @@ text-align:center;
   background: center center no-repeat scroll #8F2041; /*moon - pinky red*/
 }
 
-#graphic {
+#graphic-home {
   background: center center no-repeat scroll #DC554F; /*light - terracotta red*/
 }
 
@@ -315,6 +315,79 @@ footer {
 	padding:10px 0 10px 0;
 	background-color:#c1aa95;
 	
+}
+
+#left, #middle, #right {
+	float:left;
+	display:inline-block;
 	
+	
+}
+
+/*Grid*/
+
+.col-1 {
+	
+	width:8.33%;
+	
+}
+.col-2 {
+	
+	width:16.66%;
+	
+}
+.col-3 {
+	
+	width:25%;
+	background-color:#5e751c;
+	
+}
+.col-4 {
+	
+	width:33.33%;
+}
+.col-5 {
+	
+	width:41.66%;
+	
+}
+.col-6 {
+	
+	width:50%;
+	background-color:#8c7c62;
+	
+	
+}
+.col-7 {
+	float:left;
+	width:58.33%;
+	
+}
+.col-8 {
+	
+	float:left;
+	width:66.66%;
+	
+	
+}
+.col-9 {
+	float:left;
+	width:75%;
+	
+}
+.col-10 {
+	float:left;
+	width:83.33%;
+	
+	
+}
+.col-11 {
+	float:left;
+	width:91.66%;
+	
+}
+.col-12 {
+	float:left;
+	width:8.5%;
 	
 }
