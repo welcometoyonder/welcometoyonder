@@ -113,7 +113,6 @@ padding-top:5%;
 	height:auto;
 	
 	
-	
 }
 .home-logo img{
 	padding: 10% 0 0 0;
@@ -143,15 +142,13 @@ text-align:center;
 }
 
 #follow-item-home {
-	
+	margin:0 auto;
 	text-align:center;
-	
+	display:inline-block;
 	float:left;
 	width:50%;
-	margin:0 auto;
-	height:auto;
 	margin-left:35%;
-	position:relative;
+	height:auto;
 	
 	
 }
