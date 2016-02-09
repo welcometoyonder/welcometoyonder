@@ -142,12 +142,12 @@ text-align:center;
 }
 
 #follow-item-home {
-	margin:0 auto;
+	
 	text-align:center;
 	display:inline-block;
 	float:left;
 	width:50%;
-	margin-left:35%;
+	margin-left:0 35% 0 0;
 	height:auto;
 	
 	

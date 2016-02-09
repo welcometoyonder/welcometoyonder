@@ -4,14 +4,13 @@
 @media only screen and (max-width: 768px) {
 	
 	#follow-item-home {
-	margin:0 auto;
+	
 	text-align:center;
 	display:inline-block;
 	float:left;
 	width:50%;
-	
 	height:auto;
-	
+	margin-left:0 35% 0 0;
 	
 }
 	
