@@ -69,25 +69,24 @@ html.fp-enabled,
     z-index: 4;
     top: 50%;
     cursor: pointer;
-    width: 0;
-    height: 0;
-    border-style:dashed;
+    border:      solid currentColor;
+  	border-width: 0 .2em .2em 0;
+  	display:      inline-block;
+  	padding:      1em;
+    border-style:solid;
     margin-top: -38px;
     -webkit-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+	color:#fff;
 }
 .fp-controlArrow.fp-prev {
-	background-image:url(../img/slide-arrow-left.png);
     left: 15px;
-    width: 0;
-    border-width: 20px 20px 20px 0;
-    border-color: transparent #fff transparent transparent;
+    transform:rotate(135deg);
 }
 .fp-controlArrow.fp-next {
     right: 15px;
-    border-width: 20px 0 20px 20px;
-    border-color: transparent transparent transparent #fff;
+    transform:rotate(-45deg);
 }
 .fp-scrollable {
     overflow: scroll;
