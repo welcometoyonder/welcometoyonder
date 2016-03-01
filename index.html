@@ -1,212 +1,286 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Welcome to Yonder</title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Yonder - Part 2</title>
+    <meta name="author" content="Adtile">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+    <script src="js/responsive-nav.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link href="css/mediastyle.css" rel="stylesheet" type="text/css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+<!-- Beginning to scripts -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
 <script src="vendors/jquery.easings.min.js"></script>
-
-
 <!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
 <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
-
+<!-- This is the script for fullPage.js (slide function) -->
 <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="js/swipe.js"></script>
 
+
+<!-- Section Scrolling Function -->
 <script>
 $(document).ready(function() {
-			$('#fullpage').fullpage({
-				anchors: ['one', 'two', 'three', 'four', 'five', 'six'],
-				menu: '#menu',
-				
-				//Scrolling
-			
+            $('#fullpage').fullpage({
+                anchors: ['one', 'two', 'three', 'four', 'five', 'six'],
+                menu: '#menu',
+
+                //Scrolling
+
         scrollingSpeed: 600,
-		css3: true,
-			});
-		});
+        css3: true,
+            });
+        });
 </script>
+<!-- End of Section Scrolling Function -->
 
+<!-- Tab Function -->
+<script type="text/javascript" src="js/tabs.js"></script>
+  </head>
+  <body>
 
-</head>
-
-<body>
-<header>
-<div id="logo">
+    <header>
+      <div id="logo">
 <h3>Yonder</h3>
 
 </div>
-<nav id="menu">
-<ul>
-<li data-menuanchor="one"><a href="#one">Home</a></li>
+      <nav class="nav-collapse" id="menu">
+        <ul>
+          <li data-menuanchor="one"><a href="#one">Home</a></li>
 <li data-menuanchor="two"><a href="#two">Web</a></li>
 <li data-menuanchor="three"><a href="#three">Graphic</a></li>
 <li data-menuanchor="four"><a href="#four">Branding</a></li>
 <li data-menuanchor="five"><a href="#five">Illustration</a></li>
 <li data-menuanchor="six"><a href="#six">Contact</a></li>
 
-
-</ul>
-
-</nav>
-
-
-
-</header>
-<div id="fullpage">
+        </ul>
+      </nav>
+    </header>
+    <div id="fullpage">
     <div class="section" id="one">
-  
+
     <div class="slide" id="home">
-    
-    <div class="container">
-    
-    
-    <div class="home-logo"> <img src="img/logo.png"></div>
+
+    <div class="container-main">
+
+
+    <div class="logo-arrow-container">
+    <div class="home-logo">
+        <img src="img/logo.png">
+    </div>
     <div id="follow-item-home">
-    <div class="follow-arrow"><li data-menuanchor="two"><a href="#two">Work by Yonder</a></li><img src="img/swirly_arrow-left.png"></div>
-    <div class="follow-arrow"><img src="img/swirly_arrow.png"><li data-menuanchor="one"><a href="#one/1">About Yonder</a></li></div>
+
+        <div class="follow-arrow">
+            <ul>
+                <li data-menuanchor="two">
+                    <a href="#two">Work by Yonder</a>
+                </li>
+                <li><img src="img/swirly_arrow-left.png"></li>
+            </ul>
+        </div>
+    <div class="follow-arrow">
+        <ul>
+            <li><img src="img/swirly_arrow.png"></li>
+        <li data-menuanchor="one">
+            <a href="#one/1">About Yonder</a>
+        </li>
+        </ul>
+        </div>
     </div>
-    
-    
     </div>
-    
 
     </div>
-  
+
+
+    </div>
+
     <div class="slide" id="about">
+<div class="container-frame">
+<div class="tabs">
+    <ul class="tab-links">
+        <li class="active"><a href="#tab1">Overview</a></li>
+        <li><a href="#tab2">Development</a></li>
+        <li><a href="#tab3">Gallery</a></li>
+        <li><a href="#tab4">Design Guide</a></li>
+    </ul>
+ 
+    <div class="tab-content">
+        <div id="tab1" class="tab active">
+         
+         <p>Tab #2 content goes here!</p>
+            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
     
-    <div class="title">
-    <h1>About</h1>
-    
+</div>
+
+<!-- End of slider div -->
+
+        </div>
+ 
+        <div id="tab2" class="tab">
+            <p>Tab #2 content goes here!</p>
+            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+        </div>
+ 
+        <div id="tab3" class="tab">
+            <p>Tab #3 content goes here!</p>
+            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+        </div>
+ 
+        <div id="tab4" class="tab">
+            <p>Tab #4 content goes here!</p>
+            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+        </div>
     </div>
+</div>
     
-    
+
+
     </div>
-    
-    </div> 
-    
+
+    </div>
+  </div>
+
 <!-- Web Design Section -->
 
-    <div class="section" id="web">
+    <div class="section" id="two">
     <div class="slide" id="web">
-    
+
     <div class="title">
     <h1>Web Design</h1>
-    
+
     </div>
     <div class="follow-arrow-main"><img src="img/swirly_arrow.png"><li data-menuanchor="two"><a href="#two/1">Find out more</a></li>
-    
+
     </div>
-    
-    
-    
+
+
+
     </div>
-    
+
     <!-- Beginning of Project One -->
-    
+
     <div class="slide" id="about">
-    
-   <div class="col-1"></div>
-    
-    
+
+   
+
+
     </div>
-    
+
     <!--End of Project One -->
-    
+
     </div>
-    
+
     <div class="section" id="graphic">
-    <div class="slide" id="graphic-home">  
+    <div class="slide" id="graphic-home">
     <div class="title">
     <h1>Graphic Design</h1>
-    
+
     </div>
     <div class="follow-arrow-main"><img src="img/swirly_arrow.png"><li data-menuanchor="two"><a href="#two/1">Take a peek</a></li>
-    
+
     </div>
-    
+
     </div>
-    
+
     <div class="slide" id="about">
-    
+
     <div class="title">
     <h1>Project One</h1>
-    
+
     </div>
-    
-    
+
+
     </div>
     </div>
-    
+
     <div class="section" id="branding">
-    
+
     <div class="title">
     <h1>Branding & identity</h1>
-    
+
     </div>
     <div class="follow-arrow-main"><img src="img/swirly_arrow.png"><li data-menuanchor="four"><a href="#four/1">Have a look</a></li>
-    
+
     </div>
-    
-    
+
+
     </div>
-    
+
     <div class="section" id="illustration">
     <div class="slide" id="illustration">
-    
+
     <div class="title">
     <h1>Illustration</h1>
-    
+
     </div>
     <div class="follow-arrow-main"><img src="img/swirly_arrow.png"><li data-menuanchor="five"><a href="#five/1">Maybe a wee nosey</a></li>
-    
+
     </div>
-    
-    
-    
+
+
+
     </div>
-    
+
     <div class="slide" id="about">
-    
+
     <div class="title">
     <h1>Project One</h1>
-    
+
     </div>
-    
-    
+
+
+    </div>
+    <div class="slide" id="about">
+
+    <div class="title">
+    <h1>Project Two</h1>
+
+    </div>
+
+
+    </div>
+    <div class="slide" id="about">
+
+    <div class="title">
+    <h1>Project Three</h1>
+
+    </div>
+
+
     </div>
     </div> <!--end of illustration section -->
-    
+
      <div class="section" id="contact">
-    
+
    <div class="slide" id="contact">
-    
+
     <div class="title">
     <h1>Contact Yonder</h1>
-    
+
     </div>
     <div class="contact-details">
     <h3>Email Yonder at <a href="mailto:hello@welcometoyonder.com">hello@welcometoyonder.com</a></h3>
     <h3>Telephone Yonder at <a href="tel:+447525347461com">+44 75 253 474 61</a></h3>
     </div>
-    
+
     </div>
     </div>
-    
+
 </div>
 
-<footer>
+    
 
-<p>Copyright 2015 Yonder</p>
-
-</footer>
-
-
-</body>
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
+  </body>
 </html>
